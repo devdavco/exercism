@@ -24,9 +24,8 @@ public class LogLevels {
 
         String message = message(logLine);
         String logLevel = logLevel(logLine);
-        String finalString = message + " (" + logLevel + ")";
 
-        return finalString;
+        return message + " (" + logLevel + ")";
 
     }
 }
