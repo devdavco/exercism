@@ -1,0 +1,14 @@
+# Gradle (aplica a todos los proyectos)
+**/.gradle/
+**/build/
+!**/gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.properties
+
+# IDEs
+**/.idea/
+**/.vscode/
+
+# Otros archivos comunes
+**/HELP.md
+**/HINTS.md
+**/.exercism/
