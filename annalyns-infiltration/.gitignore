@@ -1,12 +1,13 @@
-.gradle/*
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# IDE
+.idea/
+
+# Otros
 .exercism
-gradle/*
 HELP.md
 HINTS.md
-README.md
-.idea/*
-gradlew
-gradlew.bat
-build.gradle
-src/test
-build/
