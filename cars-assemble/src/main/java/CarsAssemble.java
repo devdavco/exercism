@@ -1,15 +1,17 @@
 public class CarsAssemble {
 
     public double productionRatePerHour(int speed) {
+        int PRODUCTION_PER_HOUR  = (speed*221);
         double production = 0;
+
         if(speed >= 1 && speed <= 4){
-            production = speed * 221;
+            production = PRODUCTION_PER_HOUR;
         }else if(speed >= 5 && speed <= 8){
-            production = (speed*221) * 0.9;
+            production = PRODUCTION_PER_HOUR * 0.9;
         }else if(speed == 9 ){
-            production = (speed * 221)*0.8;
-        }else{
-            production = (speed * 221) * 0.77;
+            production = (PRODUCTION_PER_HOUR)*0.8;
+        }else if(speed == 10){
+            production = (PRODUCTION_PER_HOUR) * 0.77;
         }
 
         return production;
