@@ -1,0 +1,11 @@
+.gradle/*
+.exercism
+gradle/*
+HELP.md
+HINTS.md
+README.md
+.idea/*
+gradlew
+gradlew.bat
+build.gradle
+src/test
