@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.List;
 
 public class TestTrack {
@@ -7,7 +8,7 @@ public class TestTrack {
     }
 
     public static List<ProductionRemoteControlCar> getRankedCars(List<ProductionRemoteControlCar> cars) {
-        return cars.sort(Comparable<T>);
- 
+        Collections.sort(cars, Collections.reverseOrder());
+        return cars;
     }
 }
